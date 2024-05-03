@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas do Quiz</title>
+    <link rel="stylesheet" href="quizpage.css">
+    <style>
+        .correct {
+            background-color: green !important;
+        }
+        .incorrect {
+            background-color: red !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo TriviaKids">
+    </header>
+    <main>
+        <section class="quiz-section">
+            <div class="question-grid">
+                <div class="question-card">
+                    <h2>Pergunta 1:</h2>
+                    <p>Qual é o planeta mais próximo do Sol?</p>
+                    <ul class="answer-list">
+                        <li><button onclick="checkAnswer(this)">Terra</button></li>
+                        <li><button onclick="checkAnswer(this)">Marte</button></li>
+                        <li><button onclick="checkAnswer(this)">Vênus</button></li>
+                        <li><button onclick="checkAnswer(this)">Mercúrio</button></li>
+                    </ul>
+                </div>
+                <div class="question-card">
+                    <h2>Pergunta 2:</h2>
+                    <p>Qual é o maior animal terrestre do mundo?</p>
+                    <ul class="answer-list">
+                        <li><button onclick="checkAnswer(this)">Elefante</button></li>
+                        <li><button onclick="checkAnswer(this)">Girafa</button></li>
+                        <li><button onclick="checkAnswer(this)">Baleia Azul</button></li>
+                        <li><button onclick="checkAnswer(this)">Rinoceronte</button></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 QuizMaster. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function checkAnswer(button) {
+            var answerText = button.innerText.trim();
+            var isCorrect = false;
+
+            if (answerText === "Mercúrio" || answerText === "Elefante") {
+                isCorrect = true;
+            }
+
+            var allAnswers = button.parentNode.querySelectorAll("button");
+            
+            allAnswers.forEach(function(answer) {
+                answer.disabled = true; // Desabilita todos os botões após clicar em uma resposta
+                if (isCorrect && answer === button) {
+                    answer.classList.add("correct");
+                } else {
+                    answer.classList.add("incorrect");
+                }
+            });
+        }
+    </script>
+</body>
+</html>
