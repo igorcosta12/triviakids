@@ -6,23 +6,19 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Mantém a fonte divertida */
+    background-color:  #94f08c; /* Fundo amarelo claro */
 }
 
 header {
-    background-color: #f8f8f8; /* Altere para uma cor mais clara */
-    color: #333;
-    padding: 20px 0;
+    background-color: #FF69B4; /* Rosa choque para o cabeçalho */
+    color: #ffffff; /* Texto branco para contraste */
+    padding: 10px 0;
     text-align: center;
 }
 
 header img {
-    max-width: 200px; /* Adicione um tamanho máximo à imagem */
-}
-
-header h1 {
-    margin-bottom: 10px;
+    max-width: 200px; /* Mantém o tamanho da imagem equilibrado */
 }
 
 nav ul {
@@ -35,8 +31,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #080707;
+    color: #000000; /* Cor de texto índigo */
     text-decoration: none;
+    font-weight: bold; /* Mantém o texto em negrito para destacar */
+    transition: color 0.3s ease; /* Mantém a transição suave da cor do texto */
+}
+
+nav ul li a:hover {
+    color: #ffffffad; /* Verde limão ao passar o mouse */
 }
 
 main {
@@ -44,17 +46,17 @@ main {
 }
 
 .quiz-section {
-    background-color: #fff;
+    background-color: #ADD8E6; /* Azul claro para a seção do quiz */
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #FF69B4; /* Rosa choque para o rodapé */
+    color: #000000; /* Texto índigo para melhor legibilidade */
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -72,8 +74,8 @@ footer {
 
 .topic-list li a {
     display: block;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #FFD700; /* Ouro para os links */
+    color: #4B0082; /* Texto índigo */
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
@@ -81,5 +83,5 @@ footer {
 }
 
 .topic-list li a:hover {
-    background-color: #ddd;
+    background-color: #98FB98; /* Verde pálido ao passar o mouse */
 }

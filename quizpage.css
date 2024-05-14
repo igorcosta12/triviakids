@@ -1,20 +1,20 @@
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte mais divertida */
+    background-color: #ffffff; /* Fundo branco */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #f8f8f8;    
-    color: #fff;
+    background-color: #FF69B4; /* Azul claro para o cabeçalho */
+    color: #ffffff; /* Texto branco para contraste */
     text-align: center;
     padding: 20px 0;
 }
 
-header h1 {
-    margin: 0;
+header img {
+    max-width: 200px; /* Tamanho máximo da imagem para manter o equilíbrio */
 }
 
 main {
@@ -33,7 +33,7 @@ main {
 }
 
 .question-card {
-    background-color: #fff;
+    background-color: #ADD8E6;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -41,6 +41,7 @@ main {
 
 .question-card h2 {
     margin-top: 0;
+    color: #333; /* Cor do texto mais escura */
 }
 
 .answer-list {
@@ -57,7 +58,7 @@ main {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: #f8f8f8;
+    background-color: #FFD700; /* Coral para os botões de resposta */
     color: #333;
     text-align: center;
     border-radius: 5px;
@@ -66,8 +67,8 @@ main {
 }
 
 .answer-list li button:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #FF6347; /* Laranja claro ao passar o mouse */
+    color: #ffffff; /* Texto branco para contraste */
 }
 
 .answer-list li button:focus {
@@ -79,10 +80,10 @@ main {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #FF69B4; /* Rosa choque para o rodapé */
+    color: #000000; /* Texto índigo para melhor legibilidade */
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
     position: fixed;
     bottom: 0;
     width: 100%;

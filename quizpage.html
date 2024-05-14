@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="quizpage.css">
     <style>
         .correct {
-            background-color: green !important;
+            background-color: rgb(63, 218, 109) !important;
         }
         .incorrect {
-            background-color: red !important;
+            background-color: rgb(226, 62, 62) !important; 
         }
     </style>
 </head>
@@ -25,49 +25,68 @@
                     <h2>Pergunta 1:</h2>
                     <p>Qual é o planeta mais próximo do Sol?</p>
                     <ul class="answer-list">
-                        <li><button onclick="checkAnswer(this)">Terra</button></li>
-                        <li><button onclick="checkAnswer(this)">Marte</button></li>
-                        <li><button onclick="checkAnswer(this)">Vênus</button></li>
-                        <li><button onclick="checkAnswer(this)">Mercúrio</button></li>
+                        <li><button onclick="checkAnswer(this, 1)">Terra</button></li>
+                        <li><button onclick="checkAnswer(this, 1)">Marte</button></li>
+                        <li><button onclick="checkAnswer(this, 1)">Vênus</button></li>
+                        <li><button onclick="checkAnswer(this, 1)">Mercúrio</button></li>
                     </ul>
                 </div>
                 <div class="question-card">
                     <h2>Pergunta 2:</h2>
                     <p>Qual é o maior animal terrestre do mundo?</p>
                     <ul class="answer-list">
-                        <li><button onclick="checkAnswer(this)">Elefante</button></li>
-                        <li><button onclick="checkAnswer(this)">Girafa</button></li>
-                        <li><button onclick="checkAnswer(this)">Baleia Azul</button></li>
-                        <li><button onclick="checkAnswer(this)">Rinoceronte</button></li>
+                        <li><button onclick="checkAnswer(this, 2)">Elefante</button></li>
+                        <li><button onclick="checkAnswer(this, 2)">Girafa</button></li>
+                        <li><button onclick="checkAnswer(this, 2)">Baleia Azul</button></li>
+                        <li><button onclick="checkAnswer(this, 2)">Rinoceronte</button></li>
                     </ul>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 QuizMaster. Todos os direitos reservados.</p>
+        <p>© 2024 TriviaKids. Todos os direitos reservados.</p>
     </footer>
 
     <script>
-        function checkAnswer(button) {
+        function checkAnswer(button, questionNumber) {
+            // Define a resposta correta para cada pergunta
+            const correctAnswers = {
+                1: 'Mercúrio',
+                2: 'Elefante'
+            };
+    
+            // Obtém o texto da resposta
             var answerText = button.innerText.trim();
-            var isCorrect = false;
-
-            if (answerText === "Mercúrio" || answerText === "Elefante") {
-                isCorrect = true;
-            }
-
-            var allAnswers = button.parentNode.querySelectorAll("button");
-            
+            var isCorrect = answerText === correctAnswers[questionNumber];
+    
+            // Obtém todos os botões de resposta
+            var allAnswers = button.closest('.question-card').querySelectorAll("button");
+    
+            // Percorre todos os botões
             allAnswers.forEach(function(answer) {
-                answer.disabled = true; // Desabilita todos os botões após clicar em uma resposta
-                if (isCorrect && answer === button) {
+                // Desabilita todos os botões
+                answer.disabled = true;
+    
+                // Remove as classes "correct" e "incorrect" de todas as respostas
+                answer.classList.remove("correct", "incorrect");
+    
+                // Verifica se a resposta é a correta
+                if (answer.innerText.trim() === correctAnswers[questionNumber]) {
+                    // Adiciona classe "correct" à resposta correta
                     answer.classList.add("correct");
                 } else {
+                    // Adiciona classe "incorrect" às outras respostas
                     answer.classList.add("incorrect");
                 }
             });
+    
+            // Se a resposta selecionada for incorreta, adiciona a classe "incorrect"
+            if (!isCorrect) {
+                button.classList.add("incorrect");
+            }
         }
     </script>
+    
 </body>
 </html>
