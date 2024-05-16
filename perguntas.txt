@@ -34,5 +34,17 @@
         "respostas": ["Amazonas", "Nilo", "Yangtze", "Mississippi"],
         "correta": "Nilo",
         "tema": "geografia"
+    },
+    {
+        "pergunta": "Quem descobriu o Brasil?",
+        "respostas": ["Pedro Álvares Cabral", "Cristóvão Colombo", "Fernão de Magalhães", "Vasco da Gama"],
+        "correta": "Pedro Álvares Cabral",
+        "tema": "historia"
+    },
+    {
+        "pergunta": "Em que ano o Brasil foi descoberto?"
+        "respostas": ["1492", "1500", "1521", "1532"],
+        "correta": "1500",
+        "tema": "historia"
     }
 ]
