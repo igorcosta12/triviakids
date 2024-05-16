@@ -4,7 +4,7 @@ let perguntasRespondidas = 0;
 
 async function carregarPerguntas() {
     try {
-        const response = await fetch('perguntas.txt');
+        const response = await fetch('perguntas.json');
         perguntas = await response.json();
         gerarPerguntas();
     } catch (error) {
@@ -64,9 +64,13 @@ function verificarResposta(botao, indicePergunta) {
 }
 
 function atualizarPlacar() {
-    document.getElementById('quantidade-certas').innerText = quantidadeCertas;
-    document.getElementById('quantidade-total').innerText = perguntas.filter(pergunta => pergunta.tema === obterTema()).length;
-    document.getElementById('resultado').style.display = 'block';
+    const tema = obterTema();
+    const totalPerguntas = perguntas.filter(pergunta => pergunta.tema === tema).length;
+    if (perguntasRespondidas === totalPerguntas) {
+        document.getElementById('quantidade-certas').innerText = quantidadeCertas;
+        document.getElementById('quantidade-total').innerText = totalPerguntas;
+        document.getElementById('resultado').style.display = 'block';
+    }
 }
 
 carregarPerguntas();
