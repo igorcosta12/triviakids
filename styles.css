@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Mantém a fonte divertida */
-    background-color:  #94f08c; /* Fundo amarelo claro */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte divertida */
+    background-color: #94f08c; /* Fundo verde claro */
 }
 
 header {
@@ -31,21 +31,22 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000; /* Cor de texto índigo */
+    color: #000000; /* Cor de texto preto */
     text-decoration: none;
-    font-weight: bold; /* Mantém o texto em negrito para destacar */
-    transition: color 0.3s ease; /* Mantém a transição suave da cor do texto */
+    font-weight: bold; /* Negrito para destaque */
+    transition: color 0.3s ease; /* Transição suave da cor do texto */
 }
 
 nav ul li a:hover {
-    color: #ffffffad; /* Verde limão ao passar o mouse */
+    color: #ffffff; /* Branco ao passar o mouse */
 }
 
 main {
     padding: 20px;
+    padding-bottom: 60px; /* Espaço extra para o rodapé */
 }
 
-.quiz-section {
+.secao-quiz {
     background-color: #ADD8E6; /* Azul claro para a seção do quiz */
     border-radius: 8px;
     padding: 20px;
@@ -54,25 +55,25 @@ main {
 
 footer {
     background-color: #FF69B4; /* Rosa choque para o rodapé */
-    color: #000000; /* Texto índigo para melhor legibilidade */
+    color: #000000; /* Texto preto para melhor legibilidade */
     text-align: center;
-    padding: 5px 0;
+    padding: 10px 0; /* Espaçamento consistente */
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 /* Estilos para os tópicos */
-.topic-list {
+.lista-topicos {
     list-style: none;
     padding: 0;
 }
 
-.topic-list li {
+.lista-topicos li {
     margin-bottom: 10px;
 }
 
-.topic-list li a {
+.lista-topicos li a {
     display: block;
     background-color: #FFD700; /* Ouro para os links */
     color: #4B0082; /* Texto índigo */
@@ -82,6 +83,6 @@ footer {
     transition: background-color 0.3s ease;
 }
 
-.topic-list li a:hover {
+.lista-topicos li a:hover {
     background-color: #98FB98; /* Verde pálido ao passar o mouse */
 }

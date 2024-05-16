@@ -1,0 +1,38 @@
+[
+    {
+        "pergunta": "Qual é o planeta mais próximo do Sol?",
+        "respostas": ["Terra", "Marte", "Vênus", "Mercúrio"],
+        "correta": "Mercúrio",
+        "tema": "ciencias"
+    },
+    {
+        "pergunta": "Qual é o maior animal terrestre do mundo?",
+        "respostas": ["Elefante", "Girafa", "Baleia Azul", "Rinoceronte"],
+        "correta": "Elefante",
+        "tema": "gerais"
+    },
+    {
+        "pergunta": "Quantos continentes existem no mundo?",
+        "respostas": ["Cinco", "Seis", "Sete", "Oito"],
+        "correta": "Seis",
+        "tema": "geografia"
+    },
+    {
+        "pergunta": "Qual é a capital do Brasil?",
+        "respostas": ["Rio de Janeiro", "São Paulo", "Brasília", "Recife"],
+        "correta": "Brasília",
+        "tema": "geografia"
+    },
+    {
+        "pergunta": "Quem é o autor do livro 'O Senhor dos Anéis'?",
+        "respostas": ["J.R.R. Tolkien", "J.K. Rowling", "George R.R. Martin", "C.S. Lewis"],
+        "correta": "J.R.R. Tolkien",
+        "tema": "arte"
+    },
+    {
+        "pergunta": "Qual é o maior rio do mundo?",
+        "respostas": ["Amazonas", "Nilo", "Yangtze", "Mississippi"],
+        "correta": "Nilo",
+        "tema": "geografia"
+    }
+]
