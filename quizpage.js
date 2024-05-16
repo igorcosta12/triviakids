@@ -4,7 +4,7 @@ let perguntasRespondidas = 0;
 
 async function carregarPerguntas() {
     try {
-        const response = await fetch('perguntas.json');
+        const response = await fetch('perguntas.txt');
         perguntas = await response.json();
         gerarPerguntas();
     } catch (error) {
