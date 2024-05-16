@@ -42,7 +42,7 @@
         "tema": "historia"
     },
     {
-        "pergunta": "Em que ano o Brasil foi descoberto?"
+        "pergunta": "Em que ano o Brasil foi descoberto?",
         "respostas": ["1492", "1500", "1521", "1532"],
         "correta": "1500",
         "tema": "historia"
