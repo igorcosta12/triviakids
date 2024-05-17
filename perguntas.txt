@@ -210,7 +210,7 @@
         "tema": "historia"
     },
      {
-        "pergunta": "Quem declarou a independência do Brasil e proclamou a famosa frase "Independência ou Morte!"?",
+        "pergunta": "Quem declarou a independência do Brasil e proclamou a famosa frase 'Independência ou Morte!'?",
         "respostas": ["Dom João VI", "Dom Pedro II", "Dom Pedro I", "José Bonifácio"],
         "correta": "Dom Pedro I",
         "tema": "historia"
