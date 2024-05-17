@@ -328,5 +328,35 @@
         "respostas": ["60 minutos", "90 minutos", "120 minutos", " 45 minutos"],
         "correta": "90 minutos",
         "tema": "esportes"
+    },
+    {
+        "pergunta": "Qual é o nome do prêmio mais prestigiado do cinema?",
+        "respostas": ["Grammy", "Oscar", "Emmy", "Tonny"],
+        "correta": "Oscar",
+        "tema": "artes"
+    },
+    {
+        "pergunta": "Queal foi o pintor da Mona Lisa?",
+        "respostas": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        "correta": "Leonardo da Vinci",
+        "tema": "artes"
+    },
+    {
+        "pergunta": "Quem é o autor da série de livros "Harry Potter"?",
+        "respostas": ["J.K. Rowling", "Stephen King", "J.R.R. Tolkien", "George R.R. Martin"],
+        "correta": "J.K. Rowling",
+        "tema": "artes"
+    },
+    {
+        "pergunta": "Quem é o protagonista da série de filmes "007"?",
+        "respostas": ["Ethan Hunt", "Jason Bourne", "James Bond", "Jack Ryan"],
+        "correta": "James Bond",
+        "tema": "artes"
+    },
+    {
+        "pergunta": "Qual é o nome do alter ego do super-herói Homem-Aranha?",
+        "respostas": ["Bruce Wayne", "Tony Stark", "Peter Parker", "Clark Kent"],
+        "correta": "Peter Parker",
+        "tema": "artes"
     }
-    ]
+]
