@@ -220,5 +220,53 @@
         "respostas": ["1822", "1922", "1812", "1912"],
         "correta": "1822",
         "tema": "historia"
+    },
+    {
+        "pergunta": "Qual é o elemento químico mais abundante no universo?",
+        "respostas": ["Oxigênio", "Hélio", "Carbono", "Hidrogênio"],
+        "correta": "Hidrogênio",
+        "tema": "ciencias"
+    },
+    {
+        "pergunta": "Qual é o órgão responsável por bombear sangue pelo corpo humano?",
+        "respostas": ["Pulmões", "Coração", "Estômago", "Fígado"],
+        "correta": "Coração",
+        "tema": "ciencias"
+    },
+    {
+        "pergunta": "Qual é a unidade de medida de tempo?",
+        "respostas": ["Metro", "Segundo", "Litro", "Grama"],
+        "correta": "Segundo",
+        "tema": "ciencias"
+    },
+    {
+        "pergunta": "Qual é a unidade básica da vida?",
+        "respostas": ["Célula", "Átomo", "Molécula", "DNA"],
+        "correta": "Célula",
+        "tema": "ciencias"
+    },
+    {
+        "pergunta": "Qual é o maior órgão do corpo humano?",
+        "respostas": ["Cérebro", "Fígado", "Pulmões", "Pele"],
+        "correta": "Pele",
+        "tema": "ciencias"
+    },
+    {
+        "pergunta": "Qual é a formula química da Água?",
+        "respostas": ["CO2", "H2O", "HCl", "NaCl"],
+        "correta": "H2O",
+        "tema": "ciencias"
+    },
+    {
+        "pergunta": "Qual é o processo pelo qual a água muda do estado líquido para o gasoso?",
+        "respostas": ["Evaporação", "Condensação", "Sublimação", "Fusão"],
+        "correta": "Evaporação",
+        "tema": "ciencias"
+    },
+    {
+        "pergunta": "Qual é a estrela mais próxima da Terra?",
+        "respostas": ["Proxima Centauri", "Alfa Centauri A", "Sol", "Betelgeuse"],
+        "correta": "Sol",
+        "tema": "ciencias"
     }
 ]
