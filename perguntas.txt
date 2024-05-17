@@ -298,5 +298,35 @@
         "respostas": ["Monte Everest", "Mont Blanc", "Aconcágua", "Monte Chimborazo"],
         "correta": "Monte Everest",
         "tema": "geografia"
+    },
+    {
+        "pergunta": "Qual é o esporte mais popular do mundo?",
+        "respostas": ["Futebol", "Basquete", "Tênis", "Vôlei"],
+        "correta": "Futebol",
+        "tema": "esportes"
+    },
+    {
+        "pergunta": "Qual é o esporte que é praticado em uma pista circular, onde os atletas correm em círculos em diferentes distâncias?",
+        "respostas": ["Atletismo", "Natação", "Ciclismo", "Basquete"],
+        "correta": "Atletismo",
+        "tema": "esportes"
+    },
+    {
+        "pergunta": "Qual é o único esporte que foi jogado na Lua?",
+        "respostas": ["Futebol", "Basquete", "Golfe", "Tênis"],
+        "correta": "Golfe",
+        "tema": "esportes"
+    },
+    {
+        "pergunta": "Qual país detém o recorde de mais títulos de Copa do Mundo FIFA no futebol masculino?",
+        "respostas": ["Brasil", "Estados Unidos", "Argentina", "França"],
+        "correta": "Brasil",
+        "tema": "esportes"
+    },
+    {
+        "pergunta": "Qual é a duração padrão de um jogo de futebol?",
+        "respostas": ["60 minutos", "90 minutos", "120 minutos", " 45 minutos"],
+        "correta": "90 minutos",
+        "tema": "esportes"
     }
-]
+    ]
