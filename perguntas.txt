@@ -172,5 +172,53 @@
         "respostas": ["5", "6", "7", "8"],
         "correta": "7",
         "tema": "gerais"
-    }
+    },
+    {
+        "pergunta": "Qual foi o nome da primeira missão tripulada à Lua?",
+        "respostas": ["Apollo 11", "Gemini 4", "Vostok 1", "Mercury 7"],
+        "correta": "Apollo 11",
+        "tema": "historia"
+    },
+    {
+        "pergunta": "Quem foi o primeiro ser humano a pisar na Lua?",
+        "respostas": ["Buzz Aldrin", "Neil Armstrong", "Michael Collins", "Yuri Gagarin"],
+        "correta": "Neil Armstrong",
+        "tema": "historia"
+    },
+    {
+        "pergunta": "Quem foi o lendário rei que retirou uma espada de uma pedra e se tornou rei da Inglaterra?",
+        "respostas": ["Rei Henrique VIII", "Rei Charles II", "Rei Arthur", "Rei João V"],
+        "correta": "Rei Arthur",
+        "tema": "historia"
+    },
+    {
+        "pergunta": "Qual é o nome do explorador espanhol que descobriu a América em 1492?",
+        "respostas": ["Fernão de Magalhães", "Marco Polo", "Vasco da Gama", "Cristóvão Colombo"],
+        "correta": "Cristóvão Colombo",
+        "tema": "historia"
+    },
+    {
+        "pergunta": "Quem foi a famosa rainha do Egito",
+        "respostas": ["Ísis", "Cleópatra", "Hatshepsut", "Nefertiti"],
+        "correta": "Cleópatra",
+        "tema": "historia"
+    },
+    {
+        "pergunta": "Qual é o nome das famosas estruturas antigas do Egito conhecidas por sua forma triangular e impressionante arquitetura?",
+        "respostas": ["Torres", "Obeliscos", "Esfinges", "Pirâmides"],
+        "correta": "Pirâmides",
+        "tema": "historia"
+    },
+     {
+        "pergunta": "Quem declarou a independência do Brasil e proclamou a famosa frase "Independência ou Morte!"?",
+        "respostas": ["Dom João VI", "Dom Pedro II", "Dom Pedro I", "José Bonifácio"],
+        "correta": "Dom Pedro I",
+        "tema": "historia"
+    },
+    {
+        "pergunta": "Em que ano foi declarado a independência do Brasil",
+        "respostas": ["1822", "1922", "1812", "1912"],
+        "correta": "1822",
+        "tema": "historia"
+    },
 ]
