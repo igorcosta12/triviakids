@@ -342,13 +342,13 @@
         "tema": "artes"
     },
     {
-        "pergunta": "Quem é o autor da série de livros "Harry Potter"?",
+        "pergunta": "Quem é o autor da série de livros 'Harry Potter'?",
         "respostas": ["J.K. Rowling", "Stephen King", "J.R.R. Tolkien", "George R.R. Martin"],
         "correta": "J.K. Rowling",
         "tema": "artes"
     },
     {
-        "pergunta": "Quem é o protagonista da série de filmes "007"?",
+        "pergunta": "Quem é o protagonista da série de filmes '007'?",
         "respostas": ["Ethan Hunt", "Jason Bourne", "James Bond", "Jack Ryan"],
         "correta": "James Bond",
         "tema": "artes"
