@@ -268,5 +268,35 @@
         "respostas": ["Proxima Centauri", "Alfa Centauri A", "Sol", "Betelgeuse"],
         "correta": "Sol",
         "tema": "ciencias"
+    },
+    {
+        "pergunta": "Qual é o maior oceano do mundo?",
+        "respostas": ["Oceano Atlântico", "Oceano Pacífico", "Oceano Índico", "Oceano Ártico"],
+        "correta": "Oceano Pacífico",
+        "tema": "geografia"
+    },
+    {
+        "pergunta": "Qual é o maior deserto do mundo?",
+        "respostas": ["Deserto do Saara", "Deserto do Atacama", "Deserto de Gobi", "Deserto da Antártida"],
+        "correta": "Deserto da Antártida",
+        "tema": "geografia"
+    },
+    {
+        "pergunta": "Qual é a capital do Japão?",
+        "respostas": ["Pequim", "Seul", "Tóquio", "Bangcoc"],
+        "correta": "Tóquio",
+        "tema": "geografia"
+    },
+    {
+        "pergunta": "Qual é o país mais populoso do mundo?",
+        "respostas": ["Índia", "Estados Unidos", "Japão", "China"],
+        "correta": "China",
+        "tema": "geografia"
+    },
+    {
+        "pergunta": "Qual é o ponto mais alto da Terra?",
+        "respostas": ["Monte Everest", "Mont Blanc", "Aconcágua", "Monte Chimborazo"],
+        "correta": "Monte Everest",
+        "tema": "geografia"
     }
 ]
