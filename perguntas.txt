@@ -46,5 +46,185 @@
         "respostas": ["1492", "1500", "1521", "1532"],
         "correta": "1500",
         "tema": "historia"
-    }
+    },
+    {
+        "pergunta": "Qual o menor país do mundo?",
+        "respostas": ["Vaticano", "Japão", "São Marino", "Cuba"],
+        "correta": "Vaticano",
+        "tema": "geografia"
+    },
+    {
+        "pergunta": "Em que ano o Brasil foi descoberto?",
+        "respostas": ["1492", "1500", "1521", "1532"],
+        "correta": "1500",
+        "tema": "historia"
+    },
+    {
+        "pergunta": "Quantos planetta tem no sistema solar?",
+        "respostas": ["6", "7", "8", "9"],
+        "correta": "8",
+        "tema": "ciencias"
+    },
+    {
+        "pergunta": "Qual é o maior continente do mundo?",
+        "respostas": ["América", "Ásia", "Europa", "Oceania"],
+        "correta": "Ásia",
+        "tema": "geografia"
+    },
+    {
+        "pergunta": "Qual é o nome do mascote da Disney",
+        "respostas": ["Jerry", "Mickey", "Stuart", "Speedy"],
+        "correta": "Mickey",
+        "tema": "arte"
+    },
+{
+        "pergunta": "Quem é o vilão no filme "O Rei Leão?",
+        "respostas": ["Scar", "Mufasa", "Simba", "Timão"],
+        "correta": "Scar",
+        "tema": "arte"
+    },
+{
+        "pergunta": "Qual é o nome do super-herói que é o alter ego de Bruce Wayne?",
+        "respostas": ["Superman", "Batman", "Homem-Aranha", "Homem de Ferro"],
+        "correta": "Batman",
+        "tema": "arte"
+    },
+{
+        "pergunta": "Qual é o nome do personagem que é um ogro verde em uma série de filmes animados?",
+        "respostas": ["Shrek", "Sulley", "Donkey", "Fiona"],
+        "correta": "Shrek",
+        "tema": "arte"
+    },
+{
+        "pergunta": "Qual é o país de origem do futebol?",
+        "respostas": ["Brasil", "Alemanha", "Inglaterra", "Itália"],
+        "correta": "Inglaterra",
+        "tema": "esportes"
+    },
+{
+        "pergunta": "Quem é conhecido como "O Rei do Futebol"?",
+        "respostas": ["Maradona", "Lionel Messi", "Pelé", "Cristiano Ronaldo"],
+        "correta": "Pelé",
+        "tema": "esportes"
+    },
+{
+        "pergunta": "Qual é o nome do campeonato de automobilismo mais famoso do mundo?",
+        "respostas": ["IndyCar", "Fórmula 1", "NASCAR", "Rally Dakar"],
+        "correta": "Fórmula 1",
+        "tema": "esportes"
+    },
+{
+        "pergunta": "Qual é o país com o maior número de medalhas olímpicas de todos os tempos?",
+        "respostas": ["China", "Rússia", "Alemanha", "Estados Unidos"],
+        "correta": "Estados Unidos",
+        "tema": "esportes"
+    },
+{
+        "pergunta": "Qual é o nome do jogador de basquete conhecido como "King James"?",
+        "respostas": ["Kobe Bryant", "Michael Jordan", "LeBron James", "Shaquille O'Neal"],
+        "correta": "LeBron James",
+        "tema": "esportes"
+    },
+{
+        "pergunta": "Qual é o número de dias em um ano bissexto?",
+        "respostas": ["365", "364", "367", "366"],
+        "correta": "366",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Qual é a empresa mais valiosa do mundo?",
+        "respostas": ["Tesla", "Microsoft", "Apple", "Amazon"],
+        "correta": "Microsoft",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quem é o criador da teoria da relatividade?",
+        "respostas": ["Albert Einstein", "Isaac Newton", "Johannes Kepler", "Nikola Tesla"],
+        "correta": "Albert Einstein",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantos lados tem um octógono",
+        "respostas": ["8", "6", "12", "16"],
+        "correta": "8",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantas faces tem um dado comum?",
+        "respostas": ["10", "6", "4", "8"],
+        "correta": "6",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantos anos há em uma década?",
+        "respostas": ["15", "20", "10", "100"],
+        "correta": "10",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantos minutos há em uma hora?",
+        "respostas": ["60", "24", "100", "50"],
+        "correta": "60",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantos dias há em 4 semanas?",
+        "respostas": ["30", "31", "28", "29"],
+        "correta": "28",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Qual é o número de dias em um ano bissexto?",
+        "respostas": ["365", "364", "367", "366"],
+        "correta": "366",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Qual é a empresa mais valiosa do mundo?",
+        "respostas": ["Tesla", "Microsoft", "Apple", "Amazon"],
+        "correta": "Microsoft",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quem é o criador da teoria da relatividade?",
+        "respostas": ["Albert Einstein", "Isaac Newton", "Johannes Kepler", "Nikola Tesla"],
+        "correta": "Albert Einstein",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantos lados tem um octógono",
+        "respostas": ["8", "6", "12", "16"],
+        "correta": "8",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantas faces tem um dado comum?",
+        "respostas": ["10", "6", "4", "8"],
+        "correta": "6",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantos anos há em uma década?",
+        "respostas": ["15", "20", "10", "100"],
+        "correta": "10",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantos minutos há em uma hora?",
+        "respostas": ["60", "24", "100", "50"],
+        "correta": "60",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantos dias há em 4 semanas?",
+        "respostas": ["30", "31", "28", "29"],
+        "correta": "28",
+        "tema": "gerais"
+    },
+{
+        "pergunta": "Quantas cores há no arco-íris?",
+        "respostas": ["5", "6", "7", "8"],
+        "correta": "7",
+        "tema": "gerais"
+    },
 ]
