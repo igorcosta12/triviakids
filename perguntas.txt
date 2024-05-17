@@ -336,7 +336,7 @@
         "tema": "artes"
     },
     {
-        "pergunta": "Queal foi o pintor da Mona Lisa?",
+        "pergunta": "Quem foi o pintor da Mona Lisa?",
         "respostas": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
         "correta": "Leonardo da Vinci",
         "tema": "artes"
