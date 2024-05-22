@@ -50,10 +50,10 @@ function verificarResposta(botao, indicePergunta) {
         resposta.classList.remove("correta", "incorreta");
         if (resposta.getAttribute('data-resposta') === respostaCerta) {
             resposta.classList.add("correta");
+        } else if (resposta.getAttribute('data-resposta') === respostaUsuario) {
+            resposta.classList.add("incorreta");
         }
     });
-
-    botao.classList.add(estaCorreta ? "correta" : "incorreta");
 
     if (estaCorreta) {
         quantidadeCertas++;
