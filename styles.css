@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #2f4f4f; /* Dark Slate Gray */
+    color: #000000; /* Dark Slate Gray */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
