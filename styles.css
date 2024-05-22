@@ -5,13 +5,13 @@
 }
 
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif; 
-    background-color: #94f08c; 
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #e6e6fa; /* Lavender */
 }
 
 header {
-    background-color: #FF69B4; 
-    color: #ffffff; 
+    background-color: #9370db; /* Medium Purple */
+    color: #ffffff;
     padding: 10px 0;
     text-align: center;
 }
@@ -30,34 +30,34 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000; 
+    color: #2f4f4f; /* Dark Slate Gray */
     text-decoration: none;
-    font-weight: bold; 
+    font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 main {
     padding: 20px;
-    padding-bottom: 60px; 
+    padding-bottom: 60px;
 }
 
 .secao-quiz {
-    background-color: #ADD8E6; 
+    background-color: #ba55d3; /* Medium Orchid */
     border-radius: 8px;
     padding: 20px;
     margin: 20px auto;
-    max-width: 700px; 
+    max-width: 700px;
 }
 
 footer {
-    background-color: #FF69B4; 
-    color: #000000; 
+    background-color: #9370db; /* Medium Purple */
+    color: #000000;
     text-align: center;
-    padding: 10px 0; 
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -74,8 +74,8 @@ footer {
 
 .lista-topicos li a {
     display: block;
-    background-color: #FFD700; 
-    color: #4B0082; 
+    background-color: #9400d3;
+    color: #e9d6f7;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
@@ -83,5 +83,5 @@ footer {
 }
 
 .lista-topicos li a:hover {
-    background-color: #98FB98;
+    background-color: #8a2be2;
 }
