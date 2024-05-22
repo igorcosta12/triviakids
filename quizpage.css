@@ -1,13 +1,14 @@
 /* Estilos gerais */
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte divertida */
-    background-color: #94f08c; /* Fundo verde claro */
+    background-color: #e6e6fa; /* Lavender */
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Adicionado para consistência */
 }
 
 header {
-    background-color: #FF69B4; /* Rosa choque para o cabeçalho */
+    background-color: #9370db; /* Medium Purple */
     color: #ffffff; /* Texto branco para contraste */
     text-align: center;
     padding: 10px 0;
@@ -24,25 +25,24 @@ main {
 
 .quiz-section {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto; /* Ajustado para centralizar */
 }
 
 .question-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajustado para responsividade */
     grid-gap: 20px;
 }
 
 .cartao-pergunta {
-    background-color: #ADD8E6; /* Azul claro para os cartões de pergunta */
+    background-color: #ba55d3; /* Medium Orchid */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .cartao-pergunta h2 {
     margin-top: 0;
-    color: #333; /* Cor do texto mais escura */
+    color: #ffffff; /* Texto branco para contraste */
 }
 
 .lista-respostas {
@@ -58,18 +58,17 @@ main {
     display: block;
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    background-color: #FFD700; /* Ouro para os botões de resposta */
-    color: #333;
+    border: none; /* Removido para uma aparência mais limpa */
+    background-color: #9400d3; /* Violet */
+    color: #ffffff;
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+    transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
 .lista-respostas li button:hover {
-    background-color: #FF6347; /* Laranja claro ao passar o mouse */
-    color: #ffffff; /* Texto branco para contraste */
+    background-color: #8a2be2; /* Blue Violet */
 }
 
 .lista-respostas li button:focus {
@@ -81,8 +80,8 @@ main {
 }
 
 footer {
-    background-color: #FF69B4; /* Rosa choque para o rodapé */
-    color: #000000; /* Texto preto para melhor legibilidade */
+    background-color: #9370db; /* Medium Purple */
+    color: #ffffff; /* Texto branco para contraste */
     text-align: center;
     padding: 10px 0; /* Espaçamento consistente */
     position: fixed;
@@ -95,7 +94,7 @@ footer {
     position: fixed;
     top: 10px;
     left: 20px;
-    background-color: #FF69B4; /* Rosa choque */
+    background-color: #9370db; /* Medium Purple */
     color: #ffffff; /* Texto branco */
     text-decoration: none;
     padding: 10px;
@@ -106,7 +105,7 @@ footer {
 }
 
 .voltar-inicio:hover {
-    background-color: #FFD700; /* Laranja claro ao passar o mouse */
+    background-color: #ba55d3; /* Medium Orchid */
     transform: scale(1.1);
 }
 
@@ -114,16 +113,16 @@ footer {
 .mensagem-resultado {
     margin-top: 20px;
     padding: 15px;
-    background-color: #90EE90; /* Verde claro para sucesso */
+    background-color: #90EE90; /* Light Green */
     border-radius: 8px;
     text-align: center;
     font-size: 1.2em;
 }
 
 .correta {
-    background-color: rgb(63, 218, 109) !important;
+    background-color: #5f9ea0 !important; /* Cadet Blue */
 }
 
 .incorreta {
-    background-color: rgb(226, 62, 62) !important;
+    background-color: #ff6347 !important; /* Tomato */
 }
