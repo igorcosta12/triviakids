@@ -376,7 +376,7 @@
         "respostas": ["O Senhor dos Anéis", "Harry Potter", "Star Wars", "As Crônicas de Nárnia"],
         "correta": "Harry Potter",
         "tema": "artes"
-    }
+    },
     {
         "pergunta": "Qual é o nome do filme de animação que conta a história de um robô solitário deixado na Terra para limpar o planeta após a destruição da humanidade?",
         "respostas": ["Ratatouille", "UP: Altas Aventuras", "Wall-E", "Procurando Nemo"],
@@ -384,7 +384,7 @@
         "tema": "artes"
     },
     {
-         "pergunta": "Qual é o nome do super-herói que ganhou seus poderes após ser atingido por um raio",
+        "pergunta": "Qual é o nome do super-herói que ganhou seus poderes após ser atingido por um raio",
         "respostas": ["Barry Allen", "Wally West", "Jay Garrick", "Bart Allen"],
         "correta": "Barry Allen",
         "tema": "artes"
