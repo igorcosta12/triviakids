@@ -358,5 +358,35 @@
         "respostas": ["Bruce Wayne", "Tony Stark", "Peter Parker", "Clark Kent"],
         "correta": "Peter Parker",
         "tema": "artes"
+    },
+    {
+        "pergunta": "Quem é o renomado cartunista brasileiro responsável pela criação da 'Turma da Mônica'?"
+        "respostas": ["Maurício de Sousa", "Ziraldo Alves Pinto", "Monteiro Loato", "Laerte Coutinho"],
+        "correta": "Maurício de Sousa",
+        "tema": "artes"
+    },
+    {
+        "pergunta": "Quem pintou o famoso quadro 'Mona Lisa'?"
+        "respostas": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Salvador Dali"],
+        "correta": "Leonardo da Vinci",
+        "tema": "artes"
+    },
+    {
+        "pergunta": "Qual é o nome da saga de filmes de fantasia que se passa no mundo mágico de Hogwarts?"
+        "respostas": ["O Senhor dos Anéis", "Harry Potter", "Star Wars", "As Crônicas de Nárnia"],
+        "correta": "Harry Potter",
+        "tema": "artes"
+    }
+    {
+        "pergunta": "Qual é o nome do filme de animação que conta a história de um robô solitário deixado na Terra para limpar o planeta após a destruição da humanidade?"
+        "respostas": ["Ratatouille", "UP: Altas Aventuras", "Wall-E", " Procurando Nemo"],
+        "correta": "Wall-E",
+        "tema": "artes"
+    },
+    {
+         "pergunta": "Qual é o nome do filme de animação que conta a história de um robô solitário deixado na Terra para limpar o planeta após a destruição da humanidade?"
+        "respostas": ["Barry Allen", "Wally West", "Jay Garrick", "Bart Allen"],
+        "correta": "Barry Allen",
+        "tema": "artes"
     }
 ]
