@@ -366,12 +366,6 @@
         "tema": "arte"
     },
     {
-        "pergunta": "Quem pintou o famoso quadro 'Mona Lisa'?",
-        "respostas": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Salvador Dali"],
-        "correta": "Leonardo da Vinci",
-        "tema": "arte"
-    },
-    {
         "pergunta": "Qual é o nome da saga de filmes de fantasia que se passa no mundo mágico de Hogwarts?",
         "respostas": ["O Senhor dos Anéis", "Harry Potter", "Star Wars", "As Crônicas de Nárnia"],
         "correta": "Harry Potter",
