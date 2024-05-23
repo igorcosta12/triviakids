@@ -366,7 +366,7 @@
         "tema": "artes"
     },
     {
-        "pergunta": "Quem pintou o famoso quadro 'Mona Lisa'?"
+        "pergunta": "Quem pintou o famoso quadro 'Mona Lisa'?",
         "respostas": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Salvador Dali"],
         "correta": "Leonardo da Vinci",
         "tema": "artes"
@@ -379,7 +379,7 @@
     }
     {
         "pergunta": "Qual é o nome do filme de animação que conta a história de um robô solitário deixado na Terra para limpar o planeta após a destruição da humanidade?",
-        "respostas": ["Ratatouille", "UP: Altas Aventuras", "Wall-E", " Procurando Nemo"],
+        "respostas": ["Ratatouille", "UP: Altas Aventuras", "Wall-E", "Procurando Nemo"],
         "correta": "Wall-E",
         "tema": "artes"
     },
