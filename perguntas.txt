@@ -358,5 +358,5 @@
         "respostas": ["Maurício de Sousa", "Ziraldo Alves Pinto", "Monteiro Loato", "Laerte Coutinho"],
         "correta": "Maurício de Sousa",
         "tema": "arte"
-    },
+    }
 ]
