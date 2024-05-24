@@ -348,39 +348,15 @@
         "tema": "arte"
     },
     {
-        "pergunta": "Quem é o protagonista da série de filmes '007'?",
-        "respostas": ["Ethan Hunt", "Jason Bourne", "James Bond", "Jack Ryan"],
-        "correta": "James Bond",
-        "tema": "arte"
-    },
-    {
         "pergunta": "Qual é o nome do alter ego do super-herói Homem-Aranha?",
         "respostas": ["Bruce Wayne", "Tony Stark", "Peter Parker", "Clark Kent"],
         "correta": "Peter Parker",
         "tema": "arte"
     },
     {
-        "pergunta": "Quem é o renomado cartunista brasileiro responsável pela criação da 'Turma da Mônica'?",
+        "pergunta": "Quem é o cartunista brasileiro responsável pela criação da 'Turma da Mônica'?",
         "respostas": ["Maurício de Sousa", "Ziraldo Alves Pinto", "Monteiro Loato", "Laerte Coutinho"],
         "correta": "Maurício de Sousa",
         "tema": "arte"
     },
-    {
-        "pergunta": "Qual é o nome da saga de filmes de fantasia que se passa no mundo mágico de Hogwarts?",
-        "respostas": ["O Senhor dos Anéis", "Harry Potter", "Star Wars", "As Crônicas de Nárnia"],
-        "correta": "Harry Potter",
-        "tema": "arte"
-    },
-    {
-        "pergunta": "Qual é o nome do filme de animação que conta a história de um robô solitário deixado na Terra para limpar o planeta após a destruição da humanidade?",
-        "respostas": ["Ratatouille", "UP: Altas Aventuras", "Wall-E", "Procurando Nemo"],
-        "correta": "Wall-E",
-        "tema": "arte"
-    },
-    {
-        "pergunta": "Qual é o nome do super-herói que ganhou seus poderes após ser atingido por um raio",
-        "respostas": ["Barry Allen", "Wally West", "Jay Garrick", "Bart Allen"],
-        "correta": "Barry Allen",
-        "tema": "arte"
-    }
 ]
