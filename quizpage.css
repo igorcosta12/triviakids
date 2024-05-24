@@ -1,48 +1,47 @@
-/* Estilos gerais */
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte divertida */
-    background-color: #e6e6fa; /* Lavender */
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    background-color: #e6e6fa; 
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Adicionado para consistência */
+    box-sizing: border-box; 
 }
 
 header {
-    background-color: #9370db; /* Medium Purple */
-    color: #ffffff; /* Texto branco para contraste */
+    background-color: #9370db; 
+    color: #ffffff; 
     text-align: center;
     padding: 10px 0;
 }
 
 header img {
-    max-width: 200px; /* Tamanho máximo da imagem para manter o equilíbrio */
+    max-width: 200px; 
 }
 
 main {
     padding: 20px;
-    padding-bottom: 60px; /* Espaço extra para o rodapé */
+    padding-bottom: 60px; 
 }
 
 .quiz-section {
     max-width: 800px;
-    margin: 20px auto; /* Ajustado para centralizar */
+    margin: 20px auto; 
 }
 
 .question-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajustado para responsividade */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     grid-gap: 20px;
 }
 
 .cartao-pergunta {
-    background-color: #ba55d3; /* Medium Orchid */
+    background-color: #ba55d3; 
     padding: 20px;
     border-radius: 8px;
 }
 
 .cartao-pergunta h2 {
     margin-top: 0;
-    color: #ffffff; /* Texto branco para contraste */
+    color: #ffffff; 
 }
 
 .lista-respostas {
@@ -58,8 +57,8 @@ main {
     display: block;
     width: 100%;
     padding: 10px;
-    border: none; /* Removido para uma aparência mais limpa */
-    background-color: #9400d3; /* Violet */
+    border: none; 
+    background-color: #9400d3; 
     color: #ffffff;
     text-align: center;
     border-radius: 5px;
@@ -68,7 +67,7 @@ main {
 }
 
 .lista-respostas li button:hover {
-    background-color: #8a2be2; /* Blue Violet */
+    background-color: #8a2be2;
 }
 
 .lista-respostas li button:focus {
@@ -80,22 +79,21 @@ main {
 }
 
 footer {
-    background-color: #9370db; /* Medium Purple */
-    color: #ffffff; /* Texto branco para contraste */
+    background-color: #9370db; 
+    color: #ffffff; 
     text-align: center;
-    padding: 10px 0; /* Espaçamento consistente */
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-/* Estilo da seta de retorno */
 .voltar-inicio {
     position: fixed;
     top: 10px;
     left: 20px;
-    background-color: #9370db; /* Medium Purple */
-    color: #ffffff; /* Texto branco */
+    background-color: #9370db; 
+    color: #ffffff; 
     text-decoration: none;
     padding: 10px;
     border-radius: 50%;
@@ -105,24 +103,23 @@ footer {
 }
 
 .voltar-inicio:hover {
-    background-color: #ba55d3; /* Medium Orchid */
+    background-color: #ba55d3; 
     transform: scale(1.1);
 }
 
-/* Estilo para a mensagem de resultado */
 .mensagem-resultado {
     margin-top: 20px;
     padding: 15px;
-    background-color: #90EE90; /* Light Green */
+    background-color: #90EE90;
     border-radius: 8px;
     text-align: center;
     font-size: 1.2em;
 }
 
 .correta {
-    background-color: #5f9ea0 !important; /* Cadet Blue */
+    background-color: #23cb64 !important; 
 }
 
 .incorreta {
-    background-color: #ff6347 !important; /* Tomato */
+    background-color: #fd3d1b !important;
 }
