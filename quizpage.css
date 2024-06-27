@@ -4,10 +4,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    color: #ffffff;
 }
 
 header {
-    background-color: #9370db; 
+    background-color: #2e6df5; 
     color: #ffffff; 
     text-align: center;
     padding: 10px 0;
@@ -34,7 +35,7 @@ main {
 }
 
 .cartao-pergunta {
-    background-color: #ba55d3; 
+    background-color: #215fe2; 
     padding: 20px;
     border-radius: 8px;
 }
@@ -58,7 +59,7 @@ main {
     width: 100%;
     padding: 10px;
     border: none; 
-    background-color: #9400d3; 
+    background-color: #2e6df5; 
     color: #ffffff;
     text-align: center;
     border-radius: 5px;
@@ -67,7 +68,7 @@ main {
 }
 
 .lista-respostas li button:hover {
-    background-color: #8a2be2;
+    background-color: #6c8dd6;
 }
 
 .lista-respostas li button:focus {
@@ -79,7 +80,7 @@ main {
 }
 
 footer {
-    background-color: #9370db; 
+    background-color: #2e6df5; 
     color: #ffffff; 
     text-align: center;
     padding: 10px 0;
@@ -92,19 +93,16 @@ footer {
     position: fixed;
     top: 10px;
     left: 20px;
-    background-color: #9370db; 
     color: #ffffff; 
     text-decoration: none;
-    padding: 10px;
     border-radius: 50%;
-    font-size: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease, transform 0.1s ease;
+    font-size: 2rem;
+    transition: .3s;
 }
 
 .voltar-inicio:hover {
-    background-color: #ba55d3; 
-    transform: scale(1.1);
+
+    transform: translateX(-10px);
 }
 
 .mensagem-resultado {
